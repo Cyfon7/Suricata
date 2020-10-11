@@ -1,0 +1,83 @@
+body {
+  color: #212529;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body *{
+  margin: 0;
+  padding: 0;
+}
+
+.bar-colors {
+  background: var(--pink);
+}
+
+header h1 {
+  color: #707070;
+  font-size: 2.2rem;
+}
+
+.card {
+  width: 240px;
+  font-size: 1rem;
+  color:
+}
+
+.card img{
+  height: 132px;
+}
+
+.descripcion-texto {
+  padding: 1.032rem 0.958rem 1.368rem 0.958rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 0.813rem;
+}
+
+.list-group-item, .botones-link{
+  padding-top: 0.455rem;
+  padding-bottom: 0.455rem;
+}
+
+.list-group-item small, .card-link small{
+  font-size: 0.625rem;
+}
+
+.icons-section {
+  padding: 3.313rem 0;
+}
+
+.title-pago h2, .credit-cards{
+  display: inline-block;
+}
+
+footer img{
+  margin: 3.65rem 0;
+}
+
+/* Fuentes y dimensiones Responsivas */
+@media (min-width: 540px){
+  .card {
+    width: 250px;
+  }
+
+  header h1{
+    font-size: 3.75rem;
+  }
+
+  .card-title {
+    font-size: 1.063rem;
+  }
+
+  .list-group-item small, .card-link small{
+    font-size: 0.688rem;
+  }
+
+  footer img {
+    height: 6.278rem;
+    width: 3.333rem;
+    margin: 2.62rem 0;
+  }
+}
